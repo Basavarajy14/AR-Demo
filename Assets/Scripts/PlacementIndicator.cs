@@ -28,12 +28,11 @@ public class PlacementIndicator : MonoBehaviour
         if (hits.Count > 0)
         {
             transform.position = hits[0].pose.position;
-            var CameraForward = Camera.current.transform.forward;
+            var CameraForward = Camera.current.transform.forward;       
             var cameraBearing = new Vector3(CameraForward.x, 0f, CameraForward.z).normalized;
             transform.rotation = Quaternion.LookRotation(cameraBearing);
 
 
-            //transform.rotation = hits[0].pose.rotation;
 
             if (!indicatorObj.activeInHierarchy)
             {

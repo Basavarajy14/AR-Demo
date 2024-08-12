@@ -36,26 +36,7 @@ public class FurnitureManager : MonoBehaviour
         }
 
 
-
-
-
     }
-
-    //private void Update()
-    //{
-    //    if(Input.GetKeyDown(KeyCode.Space))
-    //    {
-    //        currentFurnitureObj = furnitureList[2];
-    //        currentFurnitureObj.transform.position = pointerIndicatorObj.transform.position;
-    //        currentFurnitureObj.transform.rotation = pointerIndicatorObj.transform.rotation;
-    //        currentFurnitureObj.SetActive(true);
-
-           
-
-    //    }
-
-    //}
-
 
     private void SpawnFurniture(int index)
     {
